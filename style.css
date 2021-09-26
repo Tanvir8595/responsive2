@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+.full-website {}
+
+.header {
+    background-color: #22C3A3;
+    padding: 20px 0;
+}
+
+.header-left {
+    float: left;
+    width: 30%;
+}
+
+.header-logo {}
+
+.header-logo h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.header-right {
+    float: right;
+    width: 70%;
+    padding-top: 10px;
+}
+
+.header-menu {
+    text-align: right;
+}
+
+.header-menu ul {}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+/* header end */
+
+.banner {
+    background-image: url(image/header-bg01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 220px 0;
+}
+
+.banner-contant {}
+
+.banner-contant h2 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+   
+}
+
+.banner-contant p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 40px;
+}
+
+.button a {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+   
+}
+
+
+/* banner end */
+
+.service {
+    padding: 100px 0;
+}
+
+.service h2 {
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.service p {
+    width: 70%;
+    margin: auto;
+    font-size: 15px;
+}
+
+
+.service-icon {
+    border-bottom: 2px solid #22C3A3;
+}
+
+.my-sevice {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    margin-right: 50px;
+    padding-bottom: 100px;
+
+}
+
+.web-design {
+    margin-left: 40px;
+}
+
+.icon {
+    color: #22C3A3;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.my-sevice h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.my-sevice p {}
+
+
+
+.about-contant {
+    padding-top: 70px;
+}
+
+.about-contant h4 {
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.about-contant p {
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+.abut-img {}
+
+.img-left {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.img-left img {
+    width: 550px;
+}
+
+.img-text-rihgt {
+    float: left;
+    width: 45%;
+    margin-left: 20px;
+    padding-bottom: 70px;
+
+}
+
+.about-heading {}
+
+.about-heading h5 {
+    
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.about-heading p {
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.contact {
+    background-color: #F6F6F6;
+    padding: 50px 0;
+}
+
+.contact-heading {}
+
+.contact-heading h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.contact-heading p {
+    padding-bottom: 40px;
+}
+
+.contact-location {}
+
+.location {
+    float: left;
+    width: 32%;
+}
+
+.loct {
+    margin-left: 30px;
+}
+
+.contact-img {
+    color: #22C3A3;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.location h5 {
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.location p {
+    font-size: 17px;
+}
+
+.phone h6 {
+    font-size: 17px;
+}
+
+
+.footer-top {
+    text-align: center;
+    background-color: #22C3A3;
+    padding: 18px 0;
+}
+
+.footer-top ul {}
+
+.footer-top ul li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: -4px;
+}
+
+.footer-top ul li a {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.footer-buttom {
+    text-align: center;
+    background-color: #222222;
+    color: #555454;
+    padding: 15px 0;
+}
+
+.footer-buttom p {
+    font-size: 17px;
+}

@@ -1,0 +1,333 @@
+body{
+    overflow-x: hidden;
+}
+@media(max-width:1440px) {
+    .header {
+        background-color: #22C3A3;
+        padding: 20px 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .header-left {
+
+        width: 25%;
+
+    }
+
+    .header-logo {
+        margin-left: 30px;
+    }
+
+    .header-right {
+
+        width: 70%;
+
+        padding-right: 50px;
+    }
+
+    .my-sevice {
+
+        width: 19%;
+
+    }
+
+    .img-left img {
+        width: 498px;
+    }
+
+    .about-heading h5 {
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+
+    .about-heading p {
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .contact-heading p {
+        font-size: 15px;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media(max-width:768px) {
+    .header-left {
+        width: 30%;
+
+    }
+
+    .header-logo h1 {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .header-right {
+        width: 63%;
+    }
+
+    .banner {
+        padding: 150px 0;
+    }
+
+    .banner-contant h2 {
+        font-size: 40px;
+    }
+
+    .banner-contant p {
+
+        font-size: 15px;
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+
+    .button a {
+        padding: 10px 20px;
+        font-size: 14px;
+
+    }
+
+    .service {
+        padding: 59px 0;
+    }
+
+    .service h2 {
+
+        font-size: 35px;
+    }
+
+    .my-sevice {
+        width: 17%;
+        padding-bottom: 50px;
+    }
+
+    .my-sevice h3 {
+
+        font-size: 16px;
+
+    }
+
+    .header-menu ul li a {
+
+        margin-left: 15px;
+    }
+
+    .my-sevice p {
+        font-size: 13px;
+    }
+
+    .about-contant {
+        padding-top: 40px;
+    }
+
+    .about-contant h4 {
+        font-size: 35px;
+
+    }
+
+    .about-contant p {
+        font-size: 15px;
+        width: 80%;
+        margin: auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .img-text-rihgt {
+        width: 100%;
+
+    }
+
+    .about-heading h5 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    .contact-heading h2 {
+        font-size: 35px;
+
+    }
+    .my-sevice:nth-child(4){
+        margin-right: 0;
+    }
+}
+
+@media(max-width:425px) {
+    .header-left {
+        width: 100%;
+    }
+
+    .header-logo h1 {
+        font-size: 26px;
+        text-align: center;
+
+    }
+
+    .header-right {
+        width: 100%;
+        padding: 0;
+    }
+    .header-menu ul {
+        text-align: center;
+        margin-top: 17px;
+    }
+    .header-menu ul li a {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    .banner {
+        padding: 80px 0;
+    }
+
+    .banner-contant h2 {
+        font-size: 30px;
+    }
+
+    .banner-contant p {
+        font-size: 13px;
+    }
+
+    .button a {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    .service-icon {
+        border-bottom: 2px solid #22C3A3;
+        margin-left: 20px;
+    }
+
+    .service h2 {
+        font-size: 30px;
+    }
+
+    .service p {
+        width: 100%;
+
+        font-size: 14px;
+    }
+
+    .my-sevice {
+        width: 50%;
+        padding-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .about-contant h4 {
+        font-size: 30px;
+    }
+    .about-contant p {
+        font-size: 14px;
+        
+    }
+    .contact-heading h2 {
+        font-size: 30px;
+    }
+    .contact-heading p {
+        font-size: 14px;
+        
+    }
+    .contact-location {
+        text-align: center;
+        margin-left: 11px;
+    }
+    .about-heading p {
+        padding-bottom: 5px;
+        font-size: 13px;
+    }
+    .location {
+        float: left;
+        width: 32%;
+    }
+    .loct {
+        margin-left:0;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .location h5 {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .phone h6 {
+        font-size: 13px;
+    }
+    .footer-top ul li a {
+        color: #fff;
+        margin-left: 17px;
+        font-size: 17px;
+    }
+    .footer-buttom p {
+        font-size: 14px;
+    }
+}
+@media(max-width:375px){
+   
+    .banner {
+        padding: 34px 0;
+    }
+    .banner-contant h2 {
+        font-size: 25px;
+    }
+    .banner-contant p {
+        font-size: 14px;
+        width: 70%;
+        margin: auto;
+    }
+    .service p {
+        width: 91%;
+        font-size: 14px;
+        padding: 0 25px;
+    }
+    .my-sevice h3 {
+        font-size: 15px;
+    }
+    .my-sevice p {
+        font-size: 12px;
+    }
+    .about-heading p {
+       
+        width: 90%;
+    }
+}
+@media (max-width:320px){
+    .header-menu ul li a {
+        margin-left: 6px;
+        font-size: 12px;
+    }
+    .header-logo h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .banner {
+        padding: 30px 0;
+    }
+    .service-icon {
+        border-bottom: 2px solid #22C3A3;
+        margin-left: 11px;
+    }
+    .location {
+        float: left;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .location h5 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .location p {
+        font-size: 16px;
+    }
+    .footer-buttom p {
+        font-size: 12px;
+    }
+}
